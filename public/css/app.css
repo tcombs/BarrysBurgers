@@ -10,3 +10,6 @@
 .bg-ofb-yellow {
   background-color: #fbb03b;
 }
+.menu-item .menu-text {
+  text-align: left;
+}
