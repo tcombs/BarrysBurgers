@@ -10,8 +10,31 @@
 .bg-ofb-yellow {
   background-color: #fbb03b;
 }
+.bg-sides {
+  width: 100%;
+  min-height: auto;
+  background-position: center;
+  background: url('../img/pots.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-kids {
+  background-color: #5C4633;
+}
+.bg-specials {
+  width: 100%;
+  min-height: auto;
+  background-position: center;
+  background: url('../img/special.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .submenu-title {
-  color: black;
+  color: white;
   font-weight: bold;
 }
 .menu-item .menu-header .menu-name {
@@ -19,4 +42,13 @@
 }
 .menu-item .menu-text {
   text-align: left;
+}
+.phone {
+  color: black;
+}
+.phone:hover {
+  text-decoration: none;
+}
+.phone:focus {
+  text-decoration: none;
 }

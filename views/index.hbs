@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Barry's Burgers</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Barry's Burger</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,16 +47,44 @@
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     
-                    <h1 class="section-heading">Menu</h1>
-                    <hr class="light">
-                    {{#each menu.submenus}}
-                        {{> submenu this}}
-                    {{/each}}
+                    {{> submenu menu.submenus.[0]}}
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-sides">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    {{> submenu menu.submenus.[1]}}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-kids">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    {{> submenu menu.submenus.[2]}}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-specials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    {{> submenu menu.submenus.[3]}}
                 </div>
             </div>
         </div>
@@ -81,7 +109,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Give us a ring!</h2>
                     <hr class="primary">
-                    <h3>405-948-7878</h3>
+                    <h3 ><a href="tel:405-948-7878" class="phone">405-948-7878</a> </h3>
                 </div>
             </div>
         </div>
