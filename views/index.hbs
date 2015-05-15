@@ -42,34 +42,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Menu</h2>
+                    
+                    <h1 class="section-heading">Menu</h1>
                     <hr class="light">
-                    <div class="menu-item">
-                        <div class="menu-header row">
-                            <h3 class="menu-name col-md-4">Hamburger</h3>
-                            <h3 class="menu-price col-md-3 col-md-offset-5">$4.28</h3>
-                        </div>
-
-                        <div class="menu-text row">
-                            <p class="text-faded col-md-10 col-md-offset-1">Fresh quarter pound of beef grilled to perfection on a sesame seed bun, topped with crisp green shredded lettuce, tomato, onion, pickles and your choice of dressing.</p>
-                        </div>
-                    </div>
-
-
-                    <div class="menu-item">
-                        <div class="menu-header row">
-                            <h3 class="menu-name col-md-4">Cheeseburger</h3>
-                            <h3 class="menu-price col-md-3 col-md-offset-5">$4.48</h3>
-                        </div>
-
-                        <div class="menu-text row">
-                            <p class="text-faded col-md-10 col-md-offset-1">Fresh quarter pound of beef grilled to perfection on a sesame seed bun, topped with crisp green shredded lettuce, tomato, onion, pickles and your choice of dressing.</p>
-                        </div>
-                    </div>
-
-                        
-                    
-                    
+                    {{#each menu.submenus}}
+                        {{> submenu this}}
+                    {{/each}}
                 </div>
             </div>
         </div>

@@ -1,0 +1,18 @@
+<h2> {{submenuName}} </h2>
+
+{{#each submenuItems}}
+	<div class="menu-item">
+	<div class="menu-header row">
+		<h3 class="menu-name col-md-5">{{name}}</h3>
+		<h3 class="menu-price col-md-3 col-md-offset-4">${{price}}</h3>
+	</div>
+
+	{{#if desc}}
+	<div class="menu-text row">
+		<p class="text-faded col-md-10 col-md-offset-1">{{desc}}</p>
+	</div>
+	{{/if}}
+</div>
+{{/each}}
+
+
