@@ -1,0 +1,168 @@
+{
+	"submenus":[
+		{
+			"submenuName":"Burgers and Sandwiches",
+			"id":"burgers",
+			"submenuItems":[
+				{
+					"name":"Hamburger",
+					"price":4.28,
+					"desc":"Fresh quarter pound of ground beef grilled to perfection on a sesame seed bun with crisp green shredded lettuce, tomato, onion, pickles and your choice of dressing."
+				},
+				{
+					"name":"Cheeseburger",
+					"price":4.48,
+					"desc":"Fresh quarter pound of ground beef grilled to perfection, topped with American cheese on a sesame seed bun with crisp green shredded lettuce, tomato, onion, pickles and your choice of dressing."
+				},
+				{
+					"name":"Onion Burger",
+					"price":4.28,
+					"desc":"Sizzling burger piled high with grilled onions served on a sesame seed bun with mustard and pickles."
+				},
+				{
+					"name":"Bacon Cheeseburger",
+					"price":5.48,
+					"desc":"Burger finished with American cheese and crisp bacon on a sesame seed bun with mayonnaise, lettuce, and tomato."
+				},
+				{
+					"name":"Hickory Burger",
+					"price":4.28,
+					"desc":"A variation on the classic BBQ burger. Tender juicy burger served on a sesame seed bun with hickory sauce and diced onions."
+				},
+				{
+					"name":"Patty Melt on Rye",
+					"price":4.78,
+					"desc":"A perfectly grilled burger sandwiched between melted cheese and a generous layer of grilled onions on rye bread."
+				},
+				{
+					"name":"Jumbo Cheeseburger",
+					"price":5.48,
+					"desc":"It’s grill time and the Jumbo with cheese is a great selection for those with large appetites. Two moist and juicy burgers double layered with cheese on a bed of lettuce, onions, tomato, pickles and your choice of dressing all on a sesame seed bun."
+				},
+				{
+					"name":"Mushroom Swiss Burger",
+					"price":5.48,
+					"desc":"Imagine a sizzling quarter pound burger topped with mouth watering mushrooms, melted swiss cheese, mayonnaise, lettuce and pickles."
+				},
+				{
+					"name":"Chicken Breast",
+					"price":4.78,
+					"desc":"A juicy succulent breast of italian grilled chicken on a sesame seed bun topped with mayonnaise, lettuce, and tomato."
+				},
+				{
+					"name":"Ham and Cheese",
+					"price":4.48,
+					"desc":"A 3 oz. ham steak grilled to perfection on a sesame seed bun with fresh onions, pickles, and mustard."
+				},
+				{
+					"name":"Polish Sausage",
+					"price":4.48,
+					"desc":"Moist sausage grilled to perfection on a sesame seed bun with fresh onions, pickles, and mustard."
+				},
+				{
+					"name":"Jalapeno Burger",
+					"price":4.48,
+					"desc":"Fresh quarter pound of beef grilled to perfection on a sesame seed bun with mustard, grilled onion, grilled jalapeno, fresh tomato, pickles and lettuce."
+				},
+				{
+					"name":"Veggie Mushroom Swiss Sandwic",
+					"price":3.48,
+					"desc":"Grilled mushrooms with Swiss cheese, lettuce, tomato, and pickles on toast."
+				},
+				{
+					"name":"Chicken Club Sandwich",
+					"price":6.28,
+					"desc":"Grilled chicken with melted Swiss cheese and crispy slices of bacon, on toast with mayonnaise, pickles, and lettuce."
+				},
+				{
+					"name":"Chicken Mushroom Swiss",
+					"price":6.28,
+					"desc":"Grilled chicken topped with mushrooms, melted Swiss cheese, mayonnaise, pickles and lettuce."
+				},
+				{
+					"name":"Mushroom Patty Melt",
+					"price":5.48,
+					"desc":"A perfectly grilled burger sandwiched between melted cheese and a generous layer of grilled onions and mushrooms on rye bread."
+				},
+				{
+					"name":"Grilled Chicken Salad",
+					"price":5.88
+				},
+				{
+					"name":"BLT",
+					"price":3.78
+				}
+			]
+		},
+		{
+			"submenuName":"Sides",
+			"id":"sides",
+			"submenuItems":[
+				{
+					"name":"Fresh Cut French Fries",
+					"price":2.69
+				},
+				{
+					"name":"Tator Tots",
+					"price":2.29
+				},
+				{
+					"name":"Onion Rings",
+					"price":2.69
+				}
+			]
+		},
+		{
+			"submenuName":"Kids Menu",
+			"id":"kids",
+			"submenuItems":[
+				{
+					"name":"Jr. Burger",
+					"price":2.25
+				},
+				{
+					"name":"Jr. Cheeseburger",
+					"price":2.55
+				},
+				{
+					"name":"Grilled Cheese",
+					"price":2.25
+				},
+				{
+					"name":"Corn Dog",
+					"price":1.95
+				}
+			]
+		},
+		{
+			"submenuName":"Daily Specials",
+			"id":"specials",
+			"submenuItems":[
+				{
+					"name":"Monday: Bacon Cheeseburger Basket",
+					"price":8.95
+				},
+				{
+					"name":"Tuesday: Onion Burger Basket",
+					"price":8.45
+				},
+				{
+					"name":"Wednesday: Grilled Chicken Basket",
+					"price":8.95
+				},
+				{
+					"name":"Thursday: Jumbo Cheeseburger Basket",
+					"price":8.95
+				},
+				{
+					"name":"Friday: Polish Basket",
+					"price":8.45
+				},
+				{
+					"name":"Saturday: Ham and Cheese Basket",
+					"price":8.45
+				}
+			]
+		}
+	]
+}
