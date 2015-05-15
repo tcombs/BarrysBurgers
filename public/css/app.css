@@ -1,3 +1,12 @@
-h1 {
-  font-size: 100px;
+.bg-ofb-red {
+  background-color: #ee5031;
+}
+.bg-ofb-green {
+  background-color: #92a905;
+}
+.bg-ofb-brown {
+  background-color: #6e1603;
+}
+.bg-ofb-yellow {
+  background-color: #fbb03b;
 }
