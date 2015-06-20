@@ -45,7 +45,7 @@
 					"desc":"Imagine a sizzling quarter pound burger topped with mouth watering mushrooms, melted swiss cheese, mayonnaise, lettuce and pickles."
 				},
 				{
-					"name":"Chicken Breast",
+					"name":"Chicken Breast Sandwich",
 					"price":4.78,
 					"desc":"A juicy succulent breast of italian grilled chicken on a sesame seed bun topped with mayonnaise, lettuce, and tomato."
 				},
@@ -65,7 +65,7 @@
 					"desc":"Fresh quarter pound of beef grilled to perfection on a sesame seed bun with mustard, grilled onion, grilled jalapeno, fresh tomato, pickles and lettuce."
 				},
 				{
-					"name":"Veggie Mushroom Swiss Sandwic",
+					"name":"Veggie Mushroom Swiss Sandwich",
 					"price":3.48,
 					"desc":"Grilled mushrooms with Swiss cheese, lettuce, tomato, and pickles on toast."
 				},
@@ -99,7 +99,7 @@
 			"id":"sides",
 			"submenuItems":[
 				{
-					"name":"Fresh Cut French Fries",
+					"name":"Fresh Hand Cut French Fries",
 					"price":2.69
 				},
 				{
@@ -136,6 +136,7 @@
 		},
 		{
 			"submenuName":"Daily Specials",
+			"submenuText":"All daily specials come with a medium drink and fries.",
 			"id":"specials",
 			"submenuItems":[
 				{
